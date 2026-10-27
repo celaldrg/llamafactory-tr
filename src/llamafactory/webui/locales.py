@@ -29,6 +29,9 @@ LOCALES = {
         "ja": {
             "value": "<h1><center>🦙🏭LLaMA Factory: 100+ LLMs の統合効率的なチューニング</center></h1>",
         },
+        "tr": {
+            "value": "<h1><center>🦙🏭LLaMA Factory: 100+ LLM için birleşik ve verimli ince ayar</center></h1>",
+        },
     },
     "subtitle": {
         "en": {
@@ -71,6 +74,14 @@ LOCALES = {
                 "ブログ</a>にアクセスする</center></h3>"
             ),
         },
+        "tr": {
+            "value": (
+                "<h3><center>Ziyaret edin: <a href='https://github.com/hiyouga/LLaMA-Factory' target='_blank'>"
+                "GitHub sayfası</a> <a href='https://llamafactory.readthedocs.io/en/latest/' target='_blank'>"
+                "Belgeler</a> <a href='https://blog.llamafactory.net/en/' target='_blank'>"
+                "Blog</a></center></h3>"
+            ),
+        },
     },
     "lang": {
         "en": {
@@ -87,6 +98,9 @@ LOCALES = {
         },
         "ja": {
             "label": "言語",
+        },
+        "tr": {
+            "label": "Dil",
         },
     },
     "model_name": {
@@ -110,6 +124,10 @@ LOCALES = {
             "label": "モデル名",
             "info": "モデルを検索するための初期名を入力してください。",
         },
+        "tr": {
+            "label": "Model adı",
+            "info": "Modeli aramak için adının başını yazın.",
+        },
     },
     "model_path": {
         "en": {
@@ -131,6 +149,10 @@ LOCALES = {
         "ja": {
             "label": "モデルパス",
             "info": "事前学習済みモデルへのパス、または Hugging Face のモデル識別子。",
+        },
+        "tr": {
+            "label": "Model yolu",
+            "info": "Önceden eğitilmiş modelin yolu veya Hugging Face model kimliği.",
         },
     },
     "hub_name": {
@@ -154,6 +176,10 @@ LOCALES = {
             "label": "モデルダウンロードソース",
             "info": "モデルをダウンロードするためのソースを選択してください。",
         },
+        "tr": {
+            "label": "Hub adı",
+            "info": "Modelin indirileceği kaynağı seçin.",
+        },
     },
     "finetuning_type": {
         "en": {
@@ -171,6 +197,9 @@ LOCALES = {
         "ja": {
             "label": "ファインチューニング方法",
         },
+        "tr": {
+            "label": "İnce ayar yöntemi",
+        },
     },
     "checkpoint_path": {
         "en": {
@@ -187,6 +216,9 @@ LOCALES = {
         },
         "ja": {
             "label": "チェックポイントパス",
+        },
+        "tr": {
+            "label": "Kontrol noktası yolu",
         },
     },
     "quantization_bit": {
@@ -210,6 +242,10 @@ LOCALES = {
             "label": "量子化ビット",
             "info": "量子化を有効にする (QLoRA)。",
         },
+        "tr": {
+            "label": "Nicemleme biti",
+            "info": "Nicemlemeyi etkinleştirir (QLoRA).",
+        },
     },
     "quantization_method": {
         "en": {
@@ -231,6 +267,10 @@ LOCALES = {
         "ja": {
             "label": "量子化方法",
             "info": "使用する量子化アルゴリズム。",
+        },
+        "tr": {
+            "label": "Nicemleme yöntemi",
+            "info": "Kullanılacak nicemleme algoritması.",
         },
     },
     "template": {
@@ -254,6 +294,10 @@ LOCALES = {
             "label": "チャットテンプレート",
             "info": "プロンプトの構築に使用されるチャットテンプレート。",
         },
+        "tr": {
+            "label": "Sohbet şablonu",
+            "info": "İstemler oluşturulurken kullanılan sohbet şablonu.",
+        },
     },
     "rope_scaling": {
         "en": {
@@ -273,6 +317,10 @@ LOCALES = {
             "label": "RoPE スケーリング",
             "info": "使用する RoPE スケーリング方法。",
         },
+        "tr": {
+            "label": "RoPE ölçekleme",
+            "info": "Kullanılacak RoPE ölçekleme yöntemi.",
+        },
     },
     "booster": {
         "en": {
@@ -291,6 +339,10 @@ LOCALES = {
         "ja": {
             "label": "ブースター",
             "info": "トレーニング速度を向上させるためのアプローチ。",
+        },
+        "tr": {
+            "label": "Hızlandırıcı",
+            "info": "Eğitimi hızlandırmak için kullanılan yöntem.",
         },
     },
     "training_stage": {
@@ -314,6 +366,10 @@ LOCALES = {
             "label": "ステージ",
             "info": "トレーニングで実行するステージ。",
         },
+        "tr": {
+            "label": "Eğitim aşaması",
+            "info": "Eğitimde uygulanacak aşama.",
+        },
     },
     "dataset_dir": {
         "en": {
@@ -336,6 +392,10 @@ LOCALES = {
             "label": "データディレクトリ",
             "info": "データディレクトリへのパス。",
         },
+        "tr": {
+            "label": "Veri dizini",
+            "info": "Veri dizininin yolu.",
+        },
     },
     "dataset": {
         "en": {
@@ -352,6 +412,9 @@ LOCALES = {
         },
         "ja": {
             "label": "データセット",
+        },
+        "tr": {
+            "label": "Veri kümesi",
         },
     },
     "data_preview_btn": {
@@ -370,6 +433,9 @@ LOCALES = {
         "ja": {
             "value": "データセットをプレビュー",
         },
+        "tr": {
+            "value": "Veri kümesini önizle",
+        },
     },
     "preview_count": {
         "en": {
@@ -386,6 +452,9 @@ LOCALES = {
         },
         "ja": {
             "label": "カウント",
+        },
+        "tr": {
+            "label": "Sayı",
         },
     },
     "page_index": {
@@ -404,6 +473,9 @@ LOCALES = {
         "ja": {
             "label": "ページ",
         },
+        "tr": {
+            "label": "Sayfa",
+        },
     },
     "prev_btn": {
         "en": {
@@ -420,6 +492,9 @@ LOCALES = {
         },
         "ja": {
             "value": "前へ",
+        },
+        "tr": {
+            "value": "Önceki",
         },
     },
     "next_btn": {
@@ -438,6 +513,9 @@ LOCALES = {
         "ja": {
             "value": "次へ",
         },
+        "tr": {
+            "value": "Sonraki",
+        },
     },
     "close_btn": {
         "en": {
@@ -455,6 +533,9 @@ LOCALES = {
         "ja": {
             "value": "閉じる",
         },
+        "tr": {
+            "value": "Kapat",
+        },
     },
     "preview_samples": {
         "en": {
@@ -471,6 +552,9 @@ LOCALES = {
         },
         "ja": {
             "label": "サンプル",
+        },
+        "tr": {
+            "label": "Örnekler",
         },
     },
     "learning_rate": {
@@ -494,6 +578,10 @@ LOCALES = {
             "label": "学習率",
             "info": "AdamW の初期学習率。",
         },
+        "tr": {
+            "label": "Öğrenme oranı",
+            "info": "AdamW için başlangıç öğrenme oranı.",
+        },
     },
     "num_train_epochs": {
         "en": {
@@ -515,6 +603,10 @@ LOCALES = {
         "ja": {
             "label": "エポック数",
             "info": "実行するトレーニングの総エポック数。",
+        },
+        "tr": {
+            "label": "Epok sayısı",
+            "info": "Eğitimde gerçekleştirilecek toplam epok sayısı.",
         },
     },
     "max_grad_norm": {
@@ -538,6 +630,10 @@ LOCALES = {
             "label": "最大勾配ノルム",
             "info": "勾配クリッピングのためのノルム。",
         },
+        "tr": {
+            "label": "Maksimum gradyan normu",
+            "info": "Gradyan kırpma için kullanılan norm.",
+        },
     },
     "train_seed": {
         "en": {
@@ -559,6 +655,10 @@ LOCALES = {
         "ja": {
             "label": "Seed",
             "info": "Random seed for training.",
+        },
+        "tr": {
+            "label": "Rastgele tohum",
+            "info": "Eğitimde kullanılan rastgele tohum değeri.",
         },
     },
     "max_samples": {
@@ -582,6 +682,10 @@ LOCALES = {
             "label": "最大サンプル数",
             "info": "データセットごとの最大サンプル数。",
         },
+        "tr": {
+            "label": "Maksimum örnek sayısı",
+            "info": "Veri kümesi başına maksimum örnek sayısı.",
+        },
     },
     "compute_type": {
         "en": {
@@ -603,6 +707,10 @@ LOCALES = {
         "ja": {
             "label": "計算タイプ",
             "info": "混合精度トレーニングを使用するかどうか。",
+        },
+        "tr": {
+            "label": "Hesaplama türü",
+            "info": "Karma hassasiyetli eğitimin kullanılıp kullanılmayacağını belirler.",
         },
     },
     "cutoff_len": {
@@ -626,6 +734,10 @@ LOCALES = {
             "label": "カットオフ長",
             "info": "入力シーケンスの最大トークン数。",
         },
+        "tr": {
+            "label": "Kesme uzunluğu",
+            "info": "Girdi dizisindeki maksimum belirteç (token) sayısı.",
+        },
     },
     "batch_size": {
         "en": {
@@ -647,6 +759,10 @@ LOCALES = {
         "ja": {
             "label": "バッチサイズ",
             "info": "各 GPU で処理されるサンプル数。",
+        },
+        "tr": {
+            "label": "Yığın boyutu",
+            "info": "Her GPU'da işlenen örnek sayısı.",
         },
     },
     "gradient_accumulation_steps": {
@@ -670,6 +786,10 @@ LOCALES = {
             "label": "勾配累積",
             "info": "勾配累積のステップ数。",
         },
+        "tr": {
+            "label": "Gradyan biriktirme",
+            "info": "Gradyan biriktirme için adım sayısı.",
+        },
     },
     "val_size": {
         "en": {
@@ -691,6 +811,10 @@ LOCALES = {
         "ja": {
             "label": "検証セットサイズ",
             "info": "データセット全体に対する検証セットの割合。",
+        },
+        "tr": {
+            "label": "Doğrulama oranı",
+            "info": "Doğrulama kümesinin tüm veri kümesine oranı.",
         },
     },
     "lr_scheduler_type": {
@@ -714,6 +838,10 @@ LOCALES = {
             "label": "学習率スケジューラ",
             "info": "学習率スケジューラの名前。",
         },
+        "tr": {
+            "label": "Öğrenme oranı zamanlayıcısı",
+            "info": "Öğrenme oranı zamanlayıcısının adı.",
+        },
     },
     "extra_tab": {
         "en": {
@@ -730,6 +858,9 @@ LOCALES = {
         },
         "ja": {
             "label": "追加設定",
+        },
+        "tr": {
+            "label": "Ek yapılandırmalar",
         },
     },
     "logging_steps": {
@@ -753,6 +884,10 @@ LOCALES = {
             "label": "ロギングステップ",
             "info": "2 つのログ間のステップ数。",
         },
+        "tr": {
+            "label": "Günlükleme aralığı",
+            "info": "Kaç adımda bir günlüğe kayıt yazılacağı.",
+        },
     },
     "save_steps": {
         "en": {
@@ -774,6 +909,10 @@ LOCALES = {
         "ja": {
             "label": "保存ステップ",
             "info": "2 つのチェックポイント間のステップ数。",
+        },
+        "tr": {
+            "label": "Kaydetme aralığı",
+            "info": "İki kontrol noktası arasındaki adım sayısı.",
         },
     },
     "warmup_steps": {
@@ -797,6 +936,10 @@ LOCALES = {
             "label": "ウォームアップステップ",
             "info": "ウォームアップに使用されるステップ数。",
         },
+        "tr": {
+            "label": "Isınma adımları",
+            "info": "Isınma için kullanılan adım sayısı.",
+        },
     },
     "neftune_alpha": {
         "en": {
@@ -818,6 +961,10 @@ LOCALES = {
         "ja": {
             "label": "NEFTune alpha",
             "info": "埋め込みベクトルに追加されるノイズの大きさ。",
+        },
+        "tr": {
+            "label": "NEFTune alpha",
+            "info": "Gömme vektörlerine eklenen gürültünün büyüklüğü.",
         },
     },
     "extra_args": {
@@ -841,6 +988,10 @@ LOCALES = {
             "label": "追加引数",
             "info": "JSON 形式でトレーナーに渡される追加引数。",
         },
+        "tr": {
+            "label": "Ek argümanlar",
+            "info": "Eğiticiye JSON biçiminde aktarılan ek argümanlar.",
+        },
     },
     "packing": {
         "en": {
@@ -862,6 +1013,10 @@ LOCALES = {
         "ja": {
             "label": "シーケンスパッキング",
             "info": "シーケンスを固定長のサンプルにパッキングします。",
+        },
+        "tr": {
+            "label": "Dizileri paketle",
+            "info": "Dizileri sabit uzunluktaki örneklere paketler.",
         },
     },
     "neat_packing": {
@@ -885,6 +1040,10 @@ LOCALES = {
             "label": "無汚染パッキングを使用",
             "info": "パッキング後のシーケンス間のクロスアテンションを避けます。",
         },
+        "tr": {
+            "label": "Temiz paketleme kullan",
+            "info": "Paketlenmiş diziler arasında çapraz dikkati önler.",
+        },
     },
     "train_on_prompt": {
         "en": {
@@ -906,6 +1065,10 @@ LOCALES = {
         "ja": {
             "label": "プロンプトで学習",
             "info": "プロンプト部分にマスクを追加しない（SFT のみ）。",
+        },
+        "tr": {
+            "label": "İstem üzerinde eğit",
+            "info": "İstemdeki etiket maskesini devre dışı bırakır (yalnızca SFT için).",
         },
     },
     "mask_history": {
@@ -929,6 +1092,10 @@ LOCALES = {
             "label": "履歴をマスク",
             "info": "最後のターンのみを学習する（SFT のみ）。",
         },
+        "tr": {
+            "label": "Geçmişi maskele",
+            "info": "Sadece son konuşma turunda eğitim yapar (yalnızca SFT için).",
+        },
     },
     "resize_vocab": {
         "en": {
@@ -950,6 +1117,10 @@ LOCALES = {
         "ja": {
             "label": "トークン埋め込みのサイズ変更",
             "info": "トークナイザーの語彙と埋め込み層のサイズを変更します。",
+        },
+        "tr": {
+            "label": "Belirteç gömmelerini yeniden boyutlandır",
+            "info": "Belirteçleyici sözlüğünü ve gömme katmanlarını yeniden boyutlandırır.",
         },
     },
     "use_llama_pro": {
@@ -973,6 +1144,10 @@ LOCALES = {
             "label": "LLaMA Pro を有効化",
             "info": "拡張ブロックのパラメータのみをトレーニングします。",
         },
+        "tr": {
+            "label": "LLaMA Pro'yu etkinleştir",
+            "info": "Genişletilmiş bloklardaki parametreleri eğitilebilir yapar.",
+        },
     },
     "enable_thinking": {
         "en": {
@@ -994,6 +1169,10 @@ LOCALES = {
         "ja": {
             "label": "思考モードを有効化",
             "info": "推論モデルの思考モードを有効にするかどうか。",
+        },
+        "tr": {
+            "label": "Düşünme modunu etkinleştir",
+            "info": "Akıl yürütme modellerinde düşünme modunu açar veya kapatır.",
         },
     },
     "report_to": {
@@ -1017,6 +1196,10 @@ LOCALES = {
             "label": "外部ロガーを有効化",
             "info": "TensorBoard または wandb を使用して実験を記録します。",
         },
+        "tr": {
+            "label": "Harici günlükleyiciyi etkinleştir",
+            "info": "Deney kayıtları için TensorBoard veya wandb kullanır.",
+        },
     },
     "freeze_tab": {
         "en": {
@@ -1033,6 +1216,9 @@ LOCALES = {
         },
         "ja": {
             "label": "フリーズチューニング設定",
+        },
+        "tr": {
+            "label": "Freeze ince ayar yapılandırması",
         },
     },
     "freeze_trainable_layers": {
@@ -1056,6 +1242,10 @@ LOCALES = {
             "label": "学習可能なレイヤー",
             "info": "最後（+）/最初（-）の学習可能な隠れ層の数。",
         },
+        "tr": {
+            "label": "Eğitilebilir katmanlar",
+            "info": "Eğitilebilir yapılacak son(+)/ilk(-) gizli katman sayısı.",
+        },
     },
     "freeze_trainable_modules": {
         "en": {
@@ -1077,6 +1267,10 @@ LOCALES = {
         "ja": {
             "label": "学習可能なモジュール",
             "info": "学習可能なモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
+        },
+        "tr": {
+            "label": "Eğitilebilir modüller",
+            "info": "Eğitilebilir modüllerin adları. Birden fazla modülü virgülle ayırın.",
         },
     },
     "freeze_extra_modules": {
@@ -1106,6 +1300,13 @@ LOCALES = {
             "label": "追加モジュール（オプション）",
             "info": "隠れ層以外の学習可能なモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
         },
+        "tr": {
+            "label": "Ek modüller (isteğe bağlı)",
+            "info": (
+                "Gizli katmanlar dışında eğitilebilir yapılacak modüllerin adları. "
+                "Birden fazla modülü virgülle ayırın."
+            ),
+        },
     },
     "lora_tab": {
         "en": {
@@ -1122,6 +1323,9 @@ LOCALES = {
         },
         "ja": {
             "label": "LoRA 設定",
+        },
+        "tr": {
+            "label": "LoRA yapılandırması",
         },
     },
     "lora_rank": {
@@ -1145,6 +1349,10 @@ LOCALES = {
             "label": "LoRA ランク",
             "info": "LoRA 行列のランク。",
         },
+        "tr": {
+            "label": "LoRA rankı",
+            "info": "LoRA matrislerinin rankı.",
+        },
     },
     "lora_alpha": {
         "en": {
@@ -1166,6 +1374,10 @@ LOCALES = {
         "ja": {
             "label": "LoRA alpha",
             "info": "LoRA スケーリング係数。",
+        },
+        "tr": {
+            "label": "LoRA alpha",
+            "info": "LoRA ölçekleme katsayısı.",
         },
     },
     "lora_dropout": {
@@ -1189,6 +1401,10 @@ LOCALES = {
             "label": "LoRA ドロップアウト",
             "info": "LoRA 重みのドロップアウト確率。",
         },
+        "tr": {
+            "label": "LoRA dropout",
+            "info": "LoRA ağırlıklarının dropout oranı.",
+        },
     },
     "loraplus_lr_ratio": {
         "en": {
@@ -1210,6 +1426,10 @@ LOCALES = {
         "ja": {
             "label": "LoRA+ LR 比率",
             "info": "LoRA+ の B 行列の学習率倍率。",
+        },
+        "tr": {
+            "label": "LoRA+ öğrenme oranı çarpanı",
+            "info": "LoRA'daki B matrislerinin öğrenme oranı çarpanı.",
         },
     },
     "create_new_adapter": {
@@ -1233,6 +1453,10 @@ LOCALES = {
             "label": "新しいアダプターを作成",
             "info": "既存のアダプター上にランダムに初期化された新しいアダプターを作成します。",
         },
+        "tr": {
+            "label": "Yeni adaptör oluştur",
+            "info": "Mevcut adaptörün üzerine, ağırlıkları rastgele başlatılmış yeni bir adaptör oluşturur.",
+        },
     },
     "use_rslora": {
         "en": {
@@ -1254,6 +1478,10 @@ LOCALES = {
         "ja": {
             "label": "rslora を使用",
             "info": "LoRA 層にランク安定化スケーリング方法を使用します。",
+        },
+        "tr": {
+            "label": "rslora kullan",
+            "info": "LoRA katmanı için rank kararlılaştırmalı ölçekleme katsayısını kullanır.",
         },
     },
     "use_dora": {
@@ -1277,6 +1505,10 @@ LOCALES = {
             "label": "DoRA を使用",
             "info": "重み分解された LoRA を使用します。",
         },
+        "tr": {
+            "label": "DoRA kullan",
+            "info": "Ağırlık ayrıştırmalı LoRA kullanır.",
+        },
     },
     "use_pissa": {
         "en": {
@@ -1299,6 +1531,10 @@ LOCALES = {
             "label": "PiSSA を使用",
             "info": "PiSSA メソッドを使用します。",
         },
+        "tr": {
+            "label": "PiSSA kullan",
+            "info": "PiSSA yöntemini kullanır.",
+        },
     },
     "lora_target": {
         "en": {
@@ -1320,6 +1556,10 @@ LOCALES = {
         "ja": {
             "label": "LoRA モジュール（オプション）",
             "info": "LoRA を適用するモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
+        },
+        "tr": {
+            "label": "LoRA modülleri (isteğe bağlı)",
+            "info": "LoRA uygulanacak modüllerin adları. Birden fazla modülü virgülle ayırın.",
         },
     },
     "additional_target": {
@@ -1349,6 +1589,13 @@ LOCALES = {
             "label": "追加モジュール（オプション）",
             "info": "LoRA 層以外の学習可能なモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
         },
+        "tr": {
+            "label": "Ek modüller (isteğe bağlı)",
+            "info": (
+                "LoRA katmanları dışında eğitilebilir yapılacak modüllerin adları. "
+                "Birden fazla modülü virgülle ayırın."
+            ),
+        },
     },
     "rlhf_tab": {
         "en": {
@@ -1365,6 +1612,9 @@ LOCALES = {
         },
         "ja": {
             "label": "RLHF 設定",
+        },
+        "tr": {
+            "label": "RLHF yapılandırması",
         },
     },
     "pref_beta": {
@@ -1388,6 +1638,10 @@ LOCALES = {
             "label": "Beta 値",
             "info": "損失関数における beta ハイパーパラメータの値。",
         },
+        "tr": {
+            "label": "Beta değeri",
+            "info": "Kayıp fonksiyonundaki beta parametresinin değeri.",
+        },
     },
     "pref_ftx": {
         "en": {
@@ -1409,6 +1663,10 @@ LOCALES = {
         "ja": {
             "label": "Ftx gamma",
             "info": "損失関数における SFT 損失の重み。",
+        },
+        "tr": {
+            "label": "Ftx gamma",
+            "info": "Nihai kayıpta SFT kaybının ağırlığı.",
         },
     },
     "pref_loss": {
@@ -1432,6 +1690,10 @@ LOCALES = {
             "label": "損失タイプ",
             "info": "損失関数のタイプ。",
         },
+        "tr": {
+            "label": "Kayıp türü",
+            "info": "Kayıp fonksiyonunun türü.",
+        },
     },
     "reward_model": {
         "en": {
@@ -1453,6 +1715,10 @@ LOCALES = {
         "ja": {
             "label": "報酬モデル",
             "info": "PPO トレーニングにおける報酬モデルのアダプター。",
+        },
+        "tr": {
+            "label": "Ödül modeli",
+            "info": "PPO eğitiminde ödül modelinin adaptörü.",
         },
     },
     "ppo_score_norm": {
@@ -1476,6 +1742,10 @@ LOCALES = {
             "label": "スコア正規化",
             "info": "PPO トレーニングにおける報酬スコアの正規化。",
         },
+        "tr": {
+            "label": "Skor normalleştirme",
+            "info": "PPO eğitiminde skorları normalleştirir.",
+        },
     },
     "ppo_whiten_rewards": {
         "en": {
@@ -1498,6 +1768,10 @@ LOCALES = {
             "label": "報酬のホワイトニング",
             "info": "PPO トレーニングにおいて報酬スコアをホワイトニング処理します。",
         },
+        "tr": {
+            "label": "Ödülleri beyazlat",
+            "info": "PPO eğitiminde ödülleri beyazlatır.",
+        },
     },
     "mm_tab": {
         "en": {
@@ -1514,6 +1788,9 @@ LOCALES = {
         },
         "ja": {
             "label": "多モーダル設定",
+        },
+        "tr": {
+            "label": "Çok modlu yapılandırma",
         },
     },
     "freeze_vision_tower": {
@@ -1537,6 +1814,10 @@ LOCALES = {
             "label": "ビジョンタワーの固定",
             "info": "モデルのビジョンタワーを固定します。",
         },
+        "tr": {
+            "label": "Görsel kodlayıcıyı dondur",
+            "info": "Modeldeki görsel kodlayıcıyı (vision tower) dondurur.",
+        },
     },
     "freeze_multi_modal_projector": {
         "en": {
@@ -1558,6 +1839,10 @@ LOCALES = {
         "ja": {
             "label": "多モーダルプロジェクターの固定",
             "info": "モデルの多モーダルプロジェクターを固定します。",
+        },
+        "tr": {
+            "label": "Çok modlu projektörü dondur",
+            "info": "Modeldeki çok modlu projektörü dondurur.",
         },
     },
     "freeze_language_model": {
@@ -1581,6 +1866,10 @@ LOCALES = {
             "label": "言語モデルの固定",
             "info": "モデルの言語モデルを固定します。",
         },
+        "tr": {
+            "label": "Dil modelini dondur",
+            "info": "Modeldeki dil modelini dondurur.",
+        },
     },
     "image_max_pixels": {
         "en": {
@@ -1602,6 +1891,10 @@ LOCALES = {
         "ja": {
             "label": "画像最大ピクセル",
             "info": "画像入力の最大ピクセル数です。",
+        },
+        "tr": {
+            "label": "Maksimum görüntü pikseli",
+            "info": "Görüntü girdilerinin maksimum piksel sayısı.",
         },
     },
     "image_min_pixels": {
@@ -1625,6 +1918,10 @@ LOCALES = {
             "label": "画像最小ピクセル",
             "info": "画像入力の最小ピクセル数です。",
         },
+        "tr": {
+            "label": "Minimum görüntü pikseli",
+            "info": "Görüntü girdilerinin minimum piksel sayısı.",
+        },
     },
     "video_max_pixels": {
         "en": {
@@ -1646,6 +1943,10 @@ LOCALES = {
         "ja": {
             "label": "ビデオ最大ピクセル",
             "info": "ビデオ入力の最大ピクセル数です。",
+        },
+        "tr": {
+            "label": "Maksimum video pikseli",
+            "info": "Video girdilerinin maksimum piksel sayısı.",
         },
     },
     "video_min_pixels": {
@@ -1669,6 +1970,10 @@ LOCALES = {
             "label": "ビデオ最小ピクセル",
             "info": "ビデオ入力の最小ピクセル数です。",
         },
+        "tr": {
+            "label": "Minimum video pikseli",
+            "info": "Video girdilerinin minimum piksel sayısı.",
+        },
     },
     "galore_tab": {
         "en": {
@@ -1685,6 +1990,9 @@ LOCALES = {
         },
         "ja": {
             "label": "GaLore 設定",
+        },
+        "tr": {
+            "label": "GaLore yapılandırması",
         },
     },
     "use_galore": {
@@ -1708,6 +2016,10 @@ LOCALES = {
             "label": "GaLore を使用",
             "info": "[GaLore](https://github.com/jiaweizzhao/GaLore) オプティマイザーを使用します。",
         },
+        "tr": {
+            "label": "GaLore kullan",
+            "info": "[GaLore](https://github.com/jiaweizzhao/GaLore) optimize edicisini kullanır.",
+        },
     },
     "galore_rank": {
         "en": {
@@ -1729,6 +2041,10 @@ LOCALES = {
         "ja": {
             "label": "GaLore ランク",
             "info": "GaLore 勾配のランク。",
+        },
+        "tr": {
+            "label": "GaLore rankı",
+            "info": "GaLore gradyanlarının rankı.",
         },
     },
     "galore_update_interval": {
@@ -1752,6 +2068,10 @@ LOCALES = {
             "label": "更新間隔",
             "info": "隣接する 2 回の投影更新間のステップ数。",
         },
+        "tr": {
+            "label": "Güncelleme aralığı",
+            "info": "GaLore izdüşümünün kaç adımda bir güncelleneceği.",
+        },
     },
     "galore_scale": {
         "en": {
@@ -1773,6 +2093,10 @@ LOCALES = {
         "ja": {
             "label": "GaLore スケール",
             "info": "GaLore スケーリング係数。",
+        },
+        "tr": {
+            "label": "GaLore ölçeği",
+            "info": "GaLore ölçekleme katsayısı.",
         },
     },
     "galore_target": {
@@ -1796,6 +2120,10 @@ LOCALES = {
             "label": "GaLore モジュール",
             "info": "GaLore を適用するモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
         },
+        "tr": {
+            "label": "GaLore modülleri",
+            "info": "GaLore uygulanacak modüllerin adları. Birden fazla modülü virgülle ayırın.",
+        },
     },
     "apollo_tab": {
         "en": {
@@ -1812,6 +2140,9 @@ LOCALES = {
         },
         "ja": {
             "label": "APOLLO 設定",
+        },
+        "tr": {
+            "label": "APOLLO yapılandırması",
         },
     },
     "use_apollo": {
@@ -1835,6 +2166,10 @@ LOCALES = {
             "label": "APOLLO を使用",
             "info": "[APOLLO](https://github.com/zhuhanqing/APOLLO) オプティマイザーを使用します。",
         },
+        "tr": {
+            "label": "APOLLO kullan",
+            "info": "[APOLLO](https://github.com/zhuhanqing/APOLLO) optimize edicisini kullanır.",
+        },
     },
     "apollo_rank": {
         "en": {
@@ -1856,6 +2191,10 @@ LOCALES = {
         "ja": {
             "label": "APOLLO ランク",
             "info": "APOLLO 勾配のランク。",
+        },
+        "tr": {
+            "label": "APOLLO rankı",
+            "info": "APOLLO gradyanlarının rankı.",
         },
     },
     "apollo_update_interval": {
@@ -1879,6 +2218,10 @@ LOCALES = {
             "label": "更新間隔",
             "info": "隣接する 2 回の投影更新間のステップ数。",
         },
+        "tr": {
+            "label": "Güncelleme aralığı",
+            "info": "APOLLO izdüşümünün kaç adımda bir güncelleneceği.",
+        },
     },
     "apollo_scale": {
         "en": {
@@ -1900,6 +2243,10 @@ LOCALES = {
         "ja": {
             "label": "APOLLO スケール",
             "info": "APOLLO スケーリング係数。",
+        },
+        "tr": {
+            "label": "APOLLO ölçeği",
+            "info": "APOLLO ölçekleme katsayısı.",
         },
     },
     "apollo_target": {
@@ -1923,6 +2270,10 @@ LOCALES = {
             "label": "APOLLO モジュール",
             "info": "APOLLO を適用するモジュールの名前。複数のモジュールを区切るにはカンマを使用します。",
         },
+        "tr": {
+            "label": "APOLLO modülleri",
+            "info": "APOLLO uygulanacak modüllerin adları. Birden fazla modülü virgülle ayırın.",
+        },
     },
     "badam_tab": {
         "en": {
@@ -1939,6 +2290,9 @@ LOCALES = {
         },
         "ja": {
             "label": "BAdam 設定",
+        },
+        "tr": {
+            "label": "BAdam yapılandırması",
         },
     },
     "use_badam": {
@@ -1962,6 +2316,10 @@ LOCALES = {
             "label": "BAdam を使用",
             "info": "[BAdam](https://github.com/Ledzy/BAdam) オプティマイザーを使用します。",
         },
+        "tr": {
+            "label": "BAdam kullan",
+            "info": "[BAdam](https://github.com/Ledzy/BAdam) optimize edicisini etkinleştirir.",
+        },
     },
     "badam_mode": {
         "en": {
@@ -1983,6 +2341,10 @@ LOCALES = {
         "ja": {
             "label": "BAdam モード",
             "info": "layer-wise または ratio-wise BAdam オプティマイザーを使用します。",
+        },
+        "tr": {
+            "label": "BAdam modu",
+            "info": "BAdam optimize edicisinin katman bazlı mı yoksa oran bazlı mı kullanılacağı.",
         },
     },
     "badam_switch_mode": {
@@ -2006,6 +2368,10 @@ LOCALES = {
             "label": "切り替え戦略",
             "info": "Layer-wise BAdam オプティマイザーのブロック切り替え戦略。",
         },
+        "tr": {
+            "label": "Geçiş modu",
+            "info": "Katman bazlı BAdam'da güncellenecek bloğun seçilme stratejisi.",
+        },
     },
     "badam_switch_interval": {
         "en": {
@@ -2027,6 +2393,10 @@ LOCALES = {
         "ja": {
             "label": "切り替え頻度",
             "info": "Layer-wise BAdam オプティマイザーのブロック切り替え頻度。",
+        },
+        "tr": {
+            "label": "Geçiş aralığı",
+            "info": "Katman bazlı BAdam'da bloğun kaç adımda bir güncelleneceği.",
         },
     },
     "badam_update_ratio": {
@@ -2050,6 +2420,10 @@ LOCALES = {
             "label": "ブロック更新比率",
             "info": "Ratio-wise BAdam オプティマイザーの更新比率。",
         },
+        "tr": {
+            "label": "Güncelleme oranı",
+            "info": "Oran bazlı BAdam için güncelleme oranı.",
+        },
     },
     "swanlab_tab": {
         "en": {
@@ -2066,6 +2440,9 @@ LOCALES = {
         },
         "ja": {
             "label": "SwanLab 設定",
+        },
+        "tr": {
+            "label": "SwanLab yapılandırması",
         },
     },
     "use_swanlab": {
@@ -2089,6 +2466,10 @@ LOCALES = {
             "label": "SwanLab を使用",
             "info": "[SwanLab](https://swanlab.cn/) を有効にして実験の追跡と可視化を行います。",
         },
+        "tr": {
+            "label": "SwanLab kullan",
+            "info": "[SwanLab](https://swanlab.cn/) ile deney takibini ve görselleştirmeyi etkinleştirir.",
+        },
     },
     "swanlab_project": {
         "en": {
@@ -2106,6 +2487,9 @@ LOCALES = {
         "ja": {
             "label": "SwanLab プロジェクト",
         },
+        "tr": {
+            "label": "SwanLab projesi",
+        },
     },
     "swanlab_run_name": {
         "en": {
@@ -2122,6 +2506,9 @@ LOCALES = {
         },
         "ja": {
             "label": "SwanLab 実験名（オプション）",
+        },
+        "tr": {
+            "label": "SwanLab deney adı (isteğe bağlı)",
         },
     },
     "swanlab_workspace": {
@@ -2145,6 +2532,10 @@ LOCALES = {
             "label": "SwanLab ワークスペース（オプション）",
             "info": "SwanLab のワークスペース。デフォルトでは個人ワークスペースです。",
         },
+        "tr": {
+            "label": "SwanLab çalışma alanı (isteğe bağlı)",
+            "info": "SwanLab çalışma alanı. Varsayılan olarak kişisel çalışma alanı kullanılır.",
+        },
     },
     "swanlab_api_key": {
         "en": {
@@ -2166,6 +2557,10 @@ LOCALES = {
         "ja": {
             "label": "SwanLab API キー（オプション）",
             "info": "SwanLab の API キー。",
+        },
+        "tr": {
+            "label": "SwanLab API anahtarı (isteğe bağlı)",
+            "info": "SwanLab için API anahtarı.",
         },
     },
     "swanlab_mode": {
@@ -2189,6 +2584,10 @@ LOCALES = {
             "label": "SwanLab モード",
             "info": "クラウド版またはオフライン版 SwanLab を使用します。",
         },
+        "tr": {
+            "label": "SwanLab modu",
+            "info": "Bulut veya çevrimdışı sürüm.",
+        },
     },
     "swanlab_logdir": {
         "en": {
@@ -2211,6 +2610,10 @@ LOCALES = {
             "label": "SwanLab ログ ディレクトリ",
             "info": "SwanLab のログ ディレクトリ。",
         },
+        "tr": {
+            "label": "SwanLab günlük dizini",
+            "info": "SwanLab günlüklerinin kaydedileceği dizin.",
+        },
     },
     "cmd_preview_btn": {
         "en": {
@@ -2227,6 +2630,9 @@ LOCALES = {
         },
         "ja": {
             "value": "コマンドをプレビュー",
+        },
+        "tr": {
+            "value": "Komutu önizle",
         },
     },
     "arg_save_btn": {
@@ -2245,6 +2651,9 @@ LOCALES = {
         "ja": {
             "value": "引数を保存",
         },
+        "tr": {
+            "value": "Argümanları kaydet",
+        },
     },
     "arg_load_btn": {
         "en": {
@@ -2261,6 +2670,9 @@ LOCALES = {
         },
         "ja": {
             "value": "引数を読み込む",
+        },
+        "tr": {
+            "value": "Argümanları yükle",
         },
     },
     "start_btn": {
@@ -2279,6 +2691,9 @@ LOCALES = {
         "ja": {
             "value": "開始",
         },
+        "tr": {
+            "value": "Başlat",
+        },
     },
     "stop_btn": {
         "en": {
@@ -2295,6 +2710,9 @@ LOCALES = {
         },
         "ja": {
             "value": "中断",
+        },
+        "tr": {
+            "value": "Durdur",
         },
     },
     "output_dir": {
@@ -2318,6 +2736,10 @@ LOCALES = {
             "label": "出力ディレクトリ",
             "info": "結果を保存するパス。",
         },
+        "tr": {
+            "label": "Çıktı dizini",
+            "info": "Sonuçların kaydedileceği dizin.",
+        },
     },
     "config_path": {
         "en": {
@@ -2339,6 +2761,10 @@ LOCALES = {
         "ja": {
             "label": "設定パス",
             "info": "トレーニングパラメータを保存する設定ファイルのパス。",
+        },
+        "tr": {
+            "label": "Yapılandırma yolu",
+            "info": "Argümanların kaydedileceği yapılandırma dosyasının yolu.",
         },
     },
     "device_count": {
@@ -2362,6 +2788,10 @@ LOCALES = {
             "label": "デバイス数",
             "info": "現在利用可能な演算デバイス数。",
         },
+        "tr": {
+            "label": "Cihaz sayısı",
+            "info": "Kullanılabilir cihaz sayısı.",
+        },
     },
     "ds_stage": {
         "en": {
@@ -2383,6 +2813,10 @@ LOCALES = {
         "ja": {
             "label": "DeepSpeed stage",
             "info": "マルチ GPU トレーニングの DeepSpeed stage。",
+        },
+        "tr": {
+            "label": "DeepSpeed aşaması",
+            "info": "Dağıtık eğitim için DeepSpeed aşaması.",
         },
     },
     "ds_offload": {
@@ -2406,6 +2840,10 @@ LOCALES = {
             "label": "オフロードを使用",
             "info": "DeepSpeed オフロードを使用します（速度が遅くなります）。",
         },
+        "tr": {
+            "label": "Offload'u etkinleştir",
+            "info": "DeepSpeed offload özelliğini etkinleştirir (eğitimi yavaşlatır).",
+        },
     },
     "output_box": {
         "en": {
@@ -2422,6 +2860,9 @@ LOCALES = {
         },
         "ja": {
             "value": "準備完了。",
+        },
+        "tr": {
+            "value": "Hazır.",
         },
     },
     "loss_viewer": {
@@ -2440,6 +2881,9 @@ LOCALES = {
         "ja": {
             "label": "損失",
         },
+        "tr": {
+            "label": "Kayıp",
+        },
     },
     "predict": {
         "en": {
@@ -2456,6 +2900,9 @@ LOCALES = {
         },
         "ja": {
             "label": "予測結果を保存",
+        },
+        "tr": {
+            "label": "Tahminleri kaydet",
         },
     },
     "infer_backend": {
@@ -2474,6 +2921,9 @@ LOCALES = {
         "ja": {
             "label": "推論エンジン",
         },
+        "tr": {
+            "label": "Çıkarım motoru",
+        },
     },
     "infer_dtype": {
         "en": {
@@ -2490,6 +2940,9 @@ LOCALES = {
         },
         "ja": {
             "label": "推論データタイプ",
+        },
+        "tr": {
+            "label": "Çıkarım veri türü",
         },
     },
     "load_btn": {
@@ -2508,6 +2961,9 @@ LOCALES = {
         "ja": {
             "value": "モデルを読み込む",
         },
+        "tr": {
+            "value": "Modeli yükle",
+        },
     },
     "unload_btn": {
         "en": {
@@ -2524,6 +2980,9 @@ LOCALES = {
         },
         "ja": {
             "value": "モデルをアンロード",
+        },
+        "tr": {
+            "value": "Modeli bellekten çıkar",
         },
     },
     "info_box": {
@@ -2542,6 +3001,9 @@ LOCALES = {
         "ja": {
             "value": "モデルがロードされていません。最初にモデルをロードしてください。",
         },
+        "tr": {
+            "value": "Model yüklü değil, lütfen önce bir model yükleyin.",
+        },
     },
     "role": {
         "en": {
@@ -2558,6 +3020,9 @@ LOCALES = {
         },
         "ja": {
             "label": "役割",
+        },
+        "tr": {
+            "label": "Rol",
         },
     },
     "system": {
@@ -2576,6 +3041,9 @@ LOCALES = {
         "ja": {
             "placeholder": "システムプロンプト（オプション）",
         },
+        "tr": {
+            "placeholder": "Sistem istemi (isteğe bağlı)",
+        },
     },
     "tools": {
         "en": {
@@ -2592,6 +3060,9 @@ LOCALES = {
         },
         "ja": {
             "placeholder": "ツールリスト（オプション）",
+        },
+        "tr": {
+            "placeholder": "Araçlar (isteğe bağlı)",
         },
     },
     "image": {
@@ -2610,6 +3081,9 @@ LOCALES = {
         "ja": {
             "label": "画像（オプション）",
         },
+        "tr": {
+            "label": "Görüntü (isteğe bağlı)",
+        },
     },
     "video": {
         "en": {
@@ -2626,6 +3100,9 @@ LOCALES = {
         },
         "ja": {
             "label": "動画（オプション）",
+        },
+        "tr": {
+            "label": "Video (isteğe bağlı)",
         },
     },
     "query": {
@@ -2644,6 +3121,9 @@ LOCALES = {
         "ja": {
             "placeholder": "入力...",
         },
+        "tr": {
+            "placeholder": "Mesajınızı yazın...",
+        },
     },
     "submit_btn": {
         "en": {
@@ -2660,6 +3140,9 @@ LOCALES = {
         },
         "ja": {
             "value": "送信",
+        },
+        "tr": {
+            "value": "Gönder",
         },
     },
     "max_length": {
@@ -2678,6 +3161,9 @@ LOCALES = {
         "ja": {
             "label": "最大長",
         },
+        "tr": {
+            "label": "Maksimum uzunluk",
+        },
     },
     "max_new_tokens": {
         "en": {
@@ -2695,6 +3181,9 @@ LOCALES = {
         "ja": {
             "label": "最大生成長",
         },
+        "tr": {
+            "label": "Maksimum yeni belirteç",
+        },
     },
     "top_p": {
         "en": {
@@ -2710,6 +3199,9 @@ LOCALES = {
             "label": "Top-p",
         },
         "ja": {
+            "label": "Top-p",
+        },
+        "tr": {
             "label": "Top-p",
         },
     },
@@ -2729,6 +3221,9 @@ LOCALES = {
         "ja": {
             "label": "温度",
         },
+        "tr": {
+            "label": "Sıcaklık",
+        },
     },
     "seed": {
         "en": {
@@ -2745,6 +3240,9 @@ LOCALES = {
         },
         "ja": {
             "label": "Generation seed (-1 = random)",
+        },
+        "tr": {
+            "label": "Üretim tohumu (rastgele için -1)",
         },
     },
     "eval_seed": {
@@ -2768,6 +3266,10 @@ LOCALES = {
             "label": "Seed",
             "info": "Random seed for evaluation and prediction.",
         },
+        "tr": {
+            "label": "Rastgele tohum",
+            "info": "Değerlendirme ve tahminde kullanılan rastgele tohum değeri.",
+        },
     },
     "skip_special_tokens": {
         "en": {
@@ -2784,6 +3286,9 @@ LOCALES = {
         },
         "ja": {
             "label": "スペシャルトークンをスキップ",
+        },
+        "tr": {
+            "label": "Özel belirteçleri atla",
         },
     },
     "escape_html": {
@@ -2802,6 +3307,9 @@ LOCALES = {
         "ja": {
             "label": "HTML タグをエスケープ",
         },
+        "tr": {
+            "label": "HTML etiketlerine kaçış uygula",
+        },
     },
     "clear_btn": {
         "en": {
@@ -2818,6 +3326,9 @@ LOCALES = {
         },
         "ja": {
             "value": "履歴をクリア",
+        },
+        "tr": {
+            "value": "Geçmişi temizle",
         },
     },
     "export_size": {
@@ -2841,6 +3352,10 @@ LOCALES = {
             "label": "最大シャードサイズ（GB）",
             "info": "単一のモデルファイルの最大サイズ。",
         },
+        "tr": {
+            "label": "Maksimum parça boyutu (GB)",
+            "info": "Tek bir model dosyasının maksimum boyutu.",
+        },
     },
     "export_quantization_bit": {
         "en": {
@@ -2862,6 +3377,10 @@ LOCALES = {
         "ja": {
             "label": "量子化ビットをエクスポート",
             "info": "エクスポートするモデルを量子化します。",
+        },
+        "tr": {
+            "label": "Dışa aktarma nicemleme biti",
+            "info": "Dışa aktarılan modeli nicemler.",
         },
     },
     "export_quantization_dataset": {
@@ -2885,6 +3404,10 @@ LOCALES = {
             "label": "量子化データセットをエクスポート",
             "info": "量子化プロセスで使用されるキャリブレーションデータセット。",
         },
+        "tr": {
+            "label": "Dışa aktarma nicemleme veri kümesi",
+            "info": "Nicemlemede kullanılan kalibrasyon veri kümesi.",
+        },
     },
     "export_device": {
         "en": {
@@ -2906,6 +3429,10 @@ LOCALES = {
         "ja": {
             "label": "エクスポートデバイス",
             "info": "モデルをエクスポートするために使用するデバイスタイプ。",
+        },
+        "tr": {
+            "label": "Dışa aktarma cihazı",
+            "info": "Modeli dışa aktarmak için kullanılacak cihaz.",
         },
     },
     "export_legacy_format": {
@@ -2929,6 +3456,10 @@ LOCALES = {
             "label": "レガシーフォーマットをエクスポート",
             "info": "safetensors フォーマットを使用せずにモデルを保存します。",
         },
+        "tr": {
+            "label": "Eski biçimde dışa aktar",
+            "info": "Modeli kaydederken safetensors kullanmaz.",
+        },
     },
     "export_dir": {
         "en": {
@@ -2950,6 +3481,10 @@ LOCALES = {
         "ja": {
             "label": "エクスポートディレクトリ",
             "info": "エクスポートしたモデルを保存するフォルダのパス。",
+        },
+        "tr": {
+            "label": "Dışa aktarma dizini",
+            "info": "Dışa aktarılan modelin kaydedileceği dizin.",
         },
     },
     "export_hub_model_id": {
@@ -2973,6 +3508,10 @@ LOCALES = {
             "label": "HF Hub ID（オプション）",
             "info": "Hugging Face Hub にモデルをアップロードするためのリポジトリ ID。",
         },
+        "tr": {
+            "label": "HF Hub kimliği (isteğe bağlı)",
+            "info": "Modeli Hugging Face Hub'a yüklemek için depo kimliği.",
+        },
     },
     "export_btn": {
         "en": {
@@ -2989,6 +3528,9 @@ LOCALES = {
         },
         "ja": {
             "value": "エクスポート",
+        },
+        "tr": {
+            "value": "Dışa aktar",
         },
     },
     "device_memory": {
@@ -3012,6 +3554,10 @@ LOCALES = {
             "label": "デバイスメモリ",
             "info": "現在のデバイスのメモリ（GB）。",
         },
+        "tr": {
+            "label": "Cihaz belleği",
+            "info": "Cihazın anlık bellek kullanımı (GB).",
+        },
     },
 }
 
@@ -3023,6 +3569,7 @@ ALERTS = {
         "zh": "任务已存在，请先中断训练。",
         "ko": "프로세스가 실행 중입니다. 먼저 중단하십시오.",
         "ja": "プロセスが実行中です。最初に中断してください。",
+        "tr": "Çalışan bir işlem var, lütfen önce onu durdurun.",
     },
     "err_exists": {
         "en": "You have loaded a model, please unload it first.",
@@ -3030,6 +3577,7 @@ ALERTS = {
         "zh": "模型已存在，请先卸载模型。",
         "ko": "모델이 로드되었습니다. 먼저 언로드하십시오.",
         "ja": "モデルがロードされています。最初にアンロードしてください。",
+        "tr": "Zaten yüklü bir model var, lütfen önce onu bellekten çıkarın.",
     },
     "err_no_model": {
         "en": "Please select a model.",
@@ -3037,6 +3585,7 @@ ALERTS = {
         "zh": "请选择模型。",
         "ko": "모델을 선택하십시오.",
         "ja": "モデルを選択してください。",
+        "tr": "Lütfen bir model seçin.",
     },
     "err_no_path": {
         "en": "Model not found.",
@@ -3044,6 +3593,7 @@ ALERTS = {
         "zh": "模型未找到。",
         "ko": "모델을 찾을 수 없습니다.",
         "ja": "モデルが見つかりません。",
+        "tr": "Model bulunamadı.",
     },
     "err_no_dataset": {
         "en": "Please choose a dataset.",
@@ -3051,6 +3601,7 @@ ALERTS = {
         "zh": "请选择数据集。",
         "ko": "데이터 세트를 선택하십시오.",
         "ja": "データセットを選択してください。",
+        "tr": "Lütfen bir veri kümesi seçin.",
     },
     "err_no_adapter": {
         "en": "Please select an adapter.",
@@ -3058,6 +3609,7 @@ ALERTS = {
         "zh": "请选择适配器。",
         "ko": "어댑터를 선택하십시오.",
         "ja": "アダプターを選択してください。",
+        "tr": "Lütfen bir adaptör seçin.",
     },
     "err_no_output_dir": {
         "en": "Please provide output dir.",
@@ -3065,6 +3617,7 @@ ALERTS = {
         "zh": "请填写输出目录。",
         "ko": "출력 디렉토리를 제공하십시오.",
         "ja": "出力ディレクトリを入力してください。",
+        "tr": "Lütfen bir çıktı dizini belirtin.",
     },
     "err_no_reward_model": {
         "en": "Please select a reward model.",
@@ -3072,6 +3625,7 @@ ALERTS = {
         "zh": "请选择奖励模型。",
         "ko": "리워드 모델을 선택하십시오.",
         "ja": "報酬モデルを選択してください。",
+        "tr": "Lütfen bir ödül modeli seçin.",
     },
     "err_no_export_dir": {
         "en": "Please provide export dir.",
@@ -3079,6 +3633,7 @@ ALERTS = {
         "zh": "请填写导出目录。",
         "ko": "Export 디렉토리를 제공하십시오.",
         "ja": "エクスポートディレクトリを入力してください。",
+        "tr": "Lütfen bir dışa aktarma dizini belirtin.",
     },
     "err_gptq_lora": {
         "en": "Please merge adapters before quantizing the model.",
@@ -3086,6 +3641,7 @@ ALERTS = {
         "zh": "量化模型前请先合并适配器。",
         "ko": "모델을 양자화하기 전에 어댑터를 병합하십시오.",
         "ja": "モデルを量子化する前にアダプターをマージしてください。",
+        "tr": "Modeli nicemlemeden önce lütfen adaptörleri birleştirin.",
     },
     "err_failed": {
         "en": "Failed.",
@@ -3093,6 +3649,7 @@ ALERTS = {
         "zh": "训练出错。",
         "ko": "실패했습니다.",
         "ja": "失敗しました。",
+        "tr": "Başarısız oldu.",
     },
     "err_demo": {
         "en": "Training is unavailable in demo mode, duplicate the space to a private one first.",
@@ -3100,6 +3657,7 @@ ALERTS = {
         "zh": "展示模式不支持训练，请先复制到私人空间。",
         "ko": "데모 모드에서는 훈련을 사용할 수 없습니다. 먼저 프라이빗 레포지토리로 작업 공간을 복제하십시오.",
         "ja": "デモモードではトレーニングは利用できません。最初にプライベートスペースに複製してください。",
+        "tr": "Demo modunda eğitim kullanılamaz, önce Space'i özel bir kopya olarak çoğaltın.",
     },
     "err_tool_name": {
         "en": "Tool name not found.",
@@ -3107,6 +3665,7 @@ ALERTS = {
         "zh": "工具名称未找到。",
         "ko": "툴 이름을 찾을 수 없습니다.",
         "ja": "ツール名が見つかりません。",
+        "tr": "Araç adı bulunamadı.",
     },
     "err_json_schema": {
         "en": "Invalid JSON schema.",
@@ -3114,6 +3673,7 @@ ALERTS = {
         "zh": "Json 格式错误。",
         "ko": "잘못된 JSON 스키마입니다.",
         "ja": "JSON スキーマが無効です。",
+        "tr": "Geçersiz JSON şeması.",
     },
     "err_config_not_found": {
         "en": "Config file is not found.",
@@ -3121,6 +3681,7 @@ ALERTS = {
         "zh": "未找到配置文件。",
         "ko": "Config 파일을 찾을 수 없습니다.",
         "ja": "設定ファイルが見つかりません。",
+        "tr": "Yapılandırma dosyası bulunamadı.",
     },
     "warn_no_cuda": {
         "en": "CUDA environment was not detected.",
@@ -3128,6 +3689,7 @@ ALERTS = {
         "zh": "未检测到 CUDA 环境。",
         "ko": "CUDA 환경이 감지되지 않았습니다.",
         "ja": "CUDA 環境が検出されませんでした。",
+        "tr": "CUDA ortamı algılanmadı.",
     },
     "warn_output_dir_exists": {
         "en": "Output dir already exists, will resume training from here.",
@@ -3135,6 +3697,7 @@ ALERTS = {
         "zh": "输出目录已存在，将从该断点恢复训练。",
         "ko": "출력 디렉토리가 이미 존재합니다. 위 출력 디렉토리에 저장된 학습을 재개합니다.",
         "ja": "出力ディレクトリが既に存在します。このチェックポイントからトレーニングを再開します。",
+        "tr": "Çıktı dizini zaten var, eğitime buradan devam edilecek.",
     },
     "warn_no_instruct": {
         "en": "You are using a non-instruct model, please fine-tune it first.",
@@ -3142,6 +3705,7 @@ ALERTS = {
         "zh": "您正在使用非指令模型，请先对其进行微调。",
         "ko": "당신은 지시하지 않은 모델을 사용하고 있습니다. 먼저 이를 미세 조정해 주세요.",
         "ja": "インストラクションモデルを使用していません。まずモデルをアダプターに適合させてください。",
+        "tr": "Talimatla eğitilmemiş (non-instruct) bir model kullanıyorsunuz, lütfen önce modele ince ayar yapın.",
     },
     "info_aborting": {
         "en": "Aborted, wait for terminating...",
@@ -3149,6 +3713,7 @@ ALERTS = {
         "zh": "训练中断，正在等待进程结束……",
         "ko": "중단되었습니다. 종료를 기다리십시오...",
         "ja": "トレーニングが中断されました。プロセスの終了を待っています...",
+        "tr": "Durduruldu, işlemin sonlanması bekleniyor...",
     },
     "info_aborted": {
         "en": "Ready.",
@@ -3156,6 +3721,7 @@ ALERTS = {
         "zh": "准备就绪。",
         "ko": "준비되었습니다.",
         "ja": "準備完了。",
+        "tr": "Hazır.",
     },
     "info_finished": {
         "en": "Finished.",
@@ -3163,6 +3729,7 @@ ALERTS = {
         "zh": "训练完毕。",
         "ko": "완료되었습니다.",
         "ja": "トレーニングが完了しました。",
+        "tr": "Tamamlandı.",
     },
     "info_config_saved": {
         "en": "Arguments have been saved at: ",
@@ -3170,6 +3737,7 @@ ALERTS = {
         "zh": "训练参数已保存至：",
         "ko": "매개변수가 저장되었습니다: ",
         "ja": "トレーニングパラメータが保存されました: ",
+        "tr": "Argümanlar şuraya kaydedildi: ",
     },
     "info_config_loaded": {
         "en": "Arguments have been restored.",
@@ -3177,6 +3745,7 @@ ALERTS = {
         "zh": "训练参数已载入。",
         "ko": "매개변수가 복원되었습니다.",
         "ja": "トレーニングパラメータが読み込まれました。",
+        "tr": "Argümanlar geri yüklendi.",
     },
     "info_loading": {
         "en": "Loading model...",
@@ -3184,6 +3753,7 @@ ALERTS = {
         "zh": "加载中……",
         "ko": "모델 로딩 중...",
         "ja": "モデルをロード中...",
+        "tr": "Model yükleniyor...",
     },
     "info_unloading": {
         "en": "Unloading model...",
@@ -3191,6 +3761,7 @@ ALERTS = {
         "zh": "卸载中……",
         "ko": "모델 언로딩 중...",
         "ja": "モデルをアンロード中...",
+        "tr": "Model bellekten çıkarılıyor...",
     },
     "info_loaded": {
         "en": "Model loaded, now you can chat with your model!",
@@ -3198,6 +3769,7 @@ ALERTS = {
         "zh": "模型已加载，可以开始聊天了！",
         "ko": "모델이 로드되었습니다. 이제 모델과 채팅할 수 있습니다!",
         "ja": "モデルがロードされました。チャットを開始できます！",
+        "tr": "Model yüklendi, artık modelinizle sohbet edebilirsiniz!",
     },
     "info_unloaded": {
         "en": "Model unloaded.",
@@ -3205,6 +3777,7 @@ ALERTS = {
         "zh": "模型已卸载。",
         "ko": "모델이 언로드되었습니다.",
         "ja": "モデルがアンロードされました。",
+        "tr": "Model bellekten çıkarıldı.",
     },
     "info_thinking": {
         "en": "🌀 Thinking...",
@@ -3212,6 +3785,7 @@ ALERTS = {
         "zh": "🌀 思考中...",
         "ko": "🌀 생각 중...",
         "ja": "🌀 考えています...",
+        "tr": "🌀 Düşünüyor...",
     },
     "info_thought": {
         "en": "✅ Thought",
@@ -3219,6 +3793,7 @@ ALERTS = {
         "zh": "✅ 思考完成",
         "ko": "✅ 생각이 완료되었습니다",
         "ja": "✅ 思考完了",
+        "tr": "✅ Düşünme tamamlandı",
     },
     "info_exporting": {
         "en": "Exporting model...",
@@ -3226,6 +3801,7 @@ ALERTS = {
         "zh": "正在导出模型……",
         "ko": "모델 내보내기 중...",
         "ja": "モデルをエクスポート中...",
+        "tr": "Model dışa aktarılıyor...",
     },
     "info_exported": {
         "en": "Model exported.",
@@ -3233,6 +3809,7 @@ ALERTS = {
         "zh": "模型导出完成。",
         "ko": "모델이 내보내졌습니다.",
         "ja": "モデルのエクスポートが完了しました。",
+        "tr": "Model dışa aktarıldı.",
     },
     "info_swanlab_link": {
         "en": "### SwanLab Link\n",
@@ -3240,5 +3817,6 @@ ALERTS = {
         "zh": "### SwanLab 链接\n",
         "ko": "### SwanLab 링크\n",
         "ja": "### SwanLab リンク\n",
+        "tr": "### SwanLab bağlantısı\n",
     },
 }
