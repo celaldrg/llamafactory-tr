@@ -1,3 +1,19 @@
+# LlamaFactory TR
+
+**LlamaFactory with a Turkish WebUI (LlamaBoard).** An unofficial, independent edition of [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory). **[Türkçe açıklama ↓](#türkçe)**
+
+> Based on [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory), Apache License 2.0 (see [LICENSE](LICENSE)). This is an independent community edition. It is not affiliated with or endorsed by the LlamaFactory team. The full upstream history is kept; every file this edition modifies is listed in its [pull requests](https://github.com/celaldrg/llamafactory-tr/pulls?q=is%3Apr) and commit history.
+>
+> The Turkish WebUI is added through this repository's pull requests. This edition has no releases; the installation instructions below come from upstream and install the official LlamaFactory release. Upstream's Docker, CUDA/NPU, docs and publishing workflows need upstream's runners or secrets, so this edition keeps only the CPU test workflow (`.github/workflows/tests.yml`).
+
+### Türkçe
+
+**LlamaFactory TR**, [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) projesinin **resmî olmayan**, bağımsız bir sürümüdür. Amacı web arayüzünü (LlamaBoard) Türkçe kullanılabilir yapmak; Türkçe arayüz bu deponun [PR'larıyla](https://github.com/celaldrg/llamafactory-tr/pulls?q=is%3Apr) ekleniyor. Değiştirilen her dosya commit geçmişinde görünür. Lisans: Apache 2.0 ([LICENSE](LICENSE)). LlamaFactory ekibiyle bağlantılı değildir, onlar tarafından onaylanmamıştır.
+
+Bu sürümün yayını yok. Aşağıdaki kurulum talimatları ana projeye aittir ve resmî LlamaFactory sürümünü kurar. Ana projenin Docker, CUDA/NPU, belge ve yayın iş akışları onun koşucularını ya da sırlarını istediği için bu sürümde yalnız CPU test iş akışı (`.github/workflows/tests.yml`) duruyor.
+
+---
+
 ![# LlamaFactory](assets/logo.png)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory?style=social)](https://github.com/hiyouga/LlamaFactory/stargazers)
